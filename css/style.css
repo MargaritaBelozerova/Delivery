@@ -107,6 +107,9 @@ body {
   line-height: 28px;
   color: #302C34;
 }
+.section-rest {
+  padding-bottom: 91px;
+}
 .section__header {
   display: flex;
   justify-content: space-between;
@@ -200,4 +203,34 @@ body {
   top: 50%;
   left: -15px;
   margin-top: -3px;
+}
+.footer {
+  background-color:#FFFFFF;
+  padding: 60px 0px;
+}
+.footer-block {
+  display: flex;
+  max-width: 566px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation {
+  max-width: 420px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link {
+  font-size: 18px;
+  line-height: 21px;
+  color: #595959;
+  text-decoration: none;
+}
+.social-block {
+  max-width: 127px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
